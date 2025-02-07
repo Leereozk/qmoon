@@ -9,6 +9,9 @@ import {
     RoadmapPage,
     ProjectsPage,
     ProjectPage,
+    PrivacyPolicy,
+    TermsOfService,
+    NotFound,
 } from './pages'
 import './App.css'
 
@@ -26,6 +29,8 @@ function App() {
                             <Route path="/roadmap" element={<RoadmapPage />} />
                             <Route path="/projects" element={<ProjectsPage />} />
                             <Route path="/project" element={<ProjectPage />} />
+                            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                            <Route path="/terms-of-service" element={<TermsOfService />} />
                         </Routes>
                     </main>
                     <Footer />

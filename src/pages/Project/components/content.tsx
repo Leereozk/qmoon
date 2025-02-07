@@ -1,6 +1,6 @@
 import { useCallback, useState, useMemo } from 'react'
 import { Menu } from './menu'
-import { Lesson1, Lesson2, Lesson3, Lesson4, Lesson5, Quiz } from './demo'
+import { Lesson1, Lesson2, Lesson3, Lesson4, Lesson5, Lesson6, Quiz } from './demo'
 
 const list = [
     Lesson1,
@@ -8,6 +8,7 @@ const list = [
     Lesson3,
     Lesson4,
     Lesson5,
+    Lesson6,
     Quiz
 ]
 export const Content = () => {

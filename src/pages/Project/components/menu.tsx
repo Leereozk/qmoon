@@ -27,7 +27,7 @@ export const Menu = (props: MenuProps) => {
                 <ul role="list" className="mx-2 acm">
                     <li>
                         <a href="#" className={activePage === 0 ? activeClassNames : defaultClassNames} onClick={() => onMenuClicked(0)}>
-                            Lesson 1: Explore Meme City!
+                            1. Bitcoin: The Digital Gold of the Modern Era
                             {readed.indexOf(0) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
@@ -35,7 +35,7 @@ export const Menu = (props: MenuProps) => {
                     </li>
                     <li className="mt-4">
                         <a href="#" className={activePage === 1 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(1)}>
-                            Lesson 2: Explore Meme City!
+                            2. How Bitcoin Works: Understanding Blockchain and Mining
                             {readed.indexOf(1) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
@@ -43,7 +43,7 @@ export const Menu = (props: MenuProps) => {
                     </li>
                     <li className="mt-4">
                         <a href="#" className={activePage === 2 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(2)}>
-                            Lesson 3: Explore Meme City!
+                            3. Bitcoin vs. Traditional Money: Key Differences and Advantages
                             {readed.indexOf(2) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
@@ -51,7 +51,7 @@ export const Menu = (props: MenuProps) => {
                     </li>
                     <li className="mt-4">
                         <a href="#" className={activePage === 3 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(3)}>
-                            Lesson 4: Explore Meme City!
+                            4. The History of Bitcoin: From Whitepaper to Global Adoption
                             {readed.indexOf(3) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
@@ -59,7 +59,7 @@ export const Menu = (props: MenuProps) => {
                     </li>
                     <li className="mt-4">
                         <a href="#" className={activePage === 4 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(4)}>
-                            Lesson 5: Explore Meme City!
+                            5. Bitcoin Security: Wallets, Private Keys, and Safe Storage
                             {readed.indexOf(4) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
@@ -67,8 +67,16 @@ export const Menu = (props: MenuProps) => {
                     </li>
                     <li className="mt-4">
                         <a href="#" className={activePage === 5 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(5)}>
+                            6. The Future of Bitcoin: Regulation, Innovation, and Mass Adoption
+                            {readed.indexOf(5) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
+                                <CheckCircleIcon width={19} />
+                            </span>)}
+                        </a>
+                    </li>
+                    <li className="mt-4">
+                        <a href="#" className={activePage === 6 ? activeClassNames : defaultClassNames}  onClick={() => onMenuClicked(6)}>
                             Pass the quiz!
-                        {readed.indexOf(5) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
+                        {readed.indexOf(6) !== -1 && (<span aria-hidden="true" className="text-green-700 font-semibold">
                                 <CheckCircleIcon width={19} />
                             </span>)}
                         </a>
