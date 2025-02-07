@@ -1,6 +1,6 @@
-export { Hero } from './Hero'
+export { Hero } from './hero'
 export { CTA } from './cta'
 export { UserSteps } from './userSteps'
 export { UserBadges } from './userBadges'
-export { MeteorShower } from './MeteorShower'
+export { MeteorShower } from './meteorShower'
 export { ProjectSteps } from './projectSteps'
