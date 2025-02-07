@@ -1,0 +1,6 @@
+export { HomePage } from './Home'
+export { AboutPage } from './About'
+export { RoadmapPage } from './Roadmap'
+export { TeamPage } from './Team'
+export { ProjectsPage } from './Projects'
+export { ProjectPage } from './Project'

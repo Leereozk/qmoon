@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { CTA } from './cta'
+export { UserSteps } from './userSteps'
+export { UserBadges } from './userBadges'
+export { MeteorShower } from './MeteorShower'
+export { ProjectSteps } from './projectSteps'
