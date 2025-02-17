@@ -38,7 +38,7 @@ export const Quiz = () => {
                 </div>
                 <div className="pb-12">
                     <div className="mt-10 space-y-10">
-                        <Steps length={list.length} active={activePageId} />
+                        <Steps list={list.length} active={activePageId} />
                         <ActivePage />
                     </div>
                 </div>

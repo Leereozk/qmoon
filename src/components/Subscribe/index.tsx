@@ -1,5 +1,3 @@
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
-
 export const Subscribe = () => {
     return (
         <div className="relative isolate overflow-hidden bg-neutral-950 py-16">

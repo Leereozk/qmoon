@@ -1,6 +1,6 @@
 import { Logo } from '@/components'
 
-import { Socials, Copyrights, MenuLeft, MenuRight, Menu } from './components'
+import { Socials, Copyrights } from './components'
 
 export const Footer = () => {
     return (
@@ -34,7 +34,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
-                <Copyrights className="sm:flex sm:items-center sm:justify-between">
+                <Copyrights>
                     <Socials />
                 </Copyrights>
             </div>

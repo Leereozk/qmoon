@@ -1,15 +1,15 @@
 import Checked from '@/assets/quiz/checked.svg?react'
 
 export const Steps = (props: ListProps) => {
-    const { active, length } = props
+    const { active, list } = props
 
     return (
         <nav aria-label="Progress">
             <ol role="list" className="items-center flex mb-6">
-                {Array.from(Array(length)).map((item, index) => {
+                {Array.from(Array(list)).map((item, index) => {
                     if (index < active) {
                         return (
-                            <li key={index} className={index !== length - 1 ? 'pr-8 sm:pr-20 relative' : 'relative'}>
+                            <li key={`${item}__${index}`} className={index !== list - 1 ? 'pr-8 sm:pr-20 relative' : 'relative'}>
                                 <div aria-hidden="true" className="absolute inset-0 flex items-center">
                                     <div className="h-0.5 w-full bg-indigo-600"></div>
                                 </div>
@@ -22,7 +22,7 @@ export const Steps = (props: ListProps) => {
                     }
                     if (index > active) {
                         return (
-                            <li key={index} className={index === length - 1 ? 'relative' : 'pr-8 sm:pr-20 relative'}>
+                            <li key={`${item}__${index}`} className={index === list - 1 ? 'relative' : 'pr-8 sm:pr-20 relative'}>
                                 <div aria-hidden="true" className="absolute inset-0 flex items-center">
                                     <div className="h-0.5 w-full bg-gray-200"></div>
                                 </div>
@@ -33,7 +33,7 @@ export const Steps = (props: ListProps) => {
                         )
                     }
                     return (
-                        <li key={index} className={index === length - 1 ? 'relative' : 'pr-8 sm:pr-20 relative'}>
+                        <li key={`${item}__${index}`} className={index === list - 1 ? 'relative' : 'pr-8 sm:pr-20 relative'}>
                             <div aria-hidden="true" className="absolute inset-0 flex items-center">
                                 <div className="h-0.5 w-full bg-gray-200"></div>
                             </div>
@@ -48,7 +48,7 @@ export const Steps = (props: ListProps) => {
     )
 }
 
-export type ListProps = () => {
+export type ListProps = {
     active: number
-    length: number
+    list: number
 }

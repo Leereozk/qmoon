@@ -9,7 +9,7 @@ import Bullx from '@/assets/wallets/bullx.svg?react'
 
 import { WalletDialogContext } from './context'
 
-export const WalletDialog = (props: WalletDialogProps) => {
+export const WalletDialog = () => {
     const { isOpened, walletDialogApi } = useContext(WalletDialogContext)
     return (
         <Dialog open={isOpened} onClose={walletDialogApi.hide} className="relative z-100">
@@ -58,8 +58,4 @@ export const WalletDialog = (props: WalletDialogProps) => {
             </div>
         </Dialog>
     )
-}
-
-export type WalletDialogProps = {
-    isOpen: boolean
 }

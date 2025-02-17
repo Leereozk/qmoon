@@ -11,7 +11,7 @@ import {
     ProjectPage,
     PrivacyPolicy,
     TermsOfService,
-    NotFound,
+    // NotFound,
 } from './pages'
 import './App.css'
 

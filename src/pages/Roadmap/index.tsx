@@ -1,5 +1,4 @@
 import Empty from '@/assets/roadmap/empty.svg?react'
-import Check from '@/assets/roadmap/check.svg?react'
 
 export const RoadmapPage = () => {
     return (
