@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="48" height="48"><svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" version="1.0" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify">
+ <g fill="#171717">
+  <title>Layer 1</title>
+  <path id="SvgjsPath1118" d="m0,0l48,0l0,48l-48,0l0,-48z" opacity="undefined" stroke="#000" fill="#171717"></path>
+  <g stroke="null" fill="#ffed00" id="SvgjsG1117" xmlns="http://www.w3.org/2000/svg">
+   <g stroke="null" id="SvgjsG1116">
+    <g stroke="null" id="SvgjsG1115">
+     <path stroke="null" d="m41.5,11.5l0,20l-5,0l0,5l-5,0l0,5l-20,0l0,-5l-5,0l0,-25l5,0l0,-5l25,0l0,5l5,0zm-10,0l-15,0l0,25l10,0l0,-5l-5,0l0,-5l10,0l0,-15zm5,30l0,-5l5,0l0,5l-5,0zm0,0" id="SvgjsPath1114"></path>
+    </g>
+   </g>
+  </g>
+ </g>
+
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
