@@ -11,7 +11,7 @@ import {
     ProjectPage,
     PrivacyPolicy,
     TermsOfService,
-    // NotFound,
+    NotFound,
 } from './pages'
 import './App.css'
 
@@ -21,7 +21,7 @@ function App() {
             <WalletDialogProvider>
                 <BrowserRouter>
                     <Header />
-                    <main>
+                    <main className="flex-1">
                         <Routes>
                             <Route path="/" element={<HomePage />} />
                             <Route path="/about" element={<AboutPage />} />
@@ -31,6 +31,7 @@ function App() {
                             <Route path="/project" element={<ProjectPage />} />
                             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                             <Route path="/terms-of-service" element={<TermsOfService />} />
+                            <Route path='*' element={<NotFound/>} />
                         </Routes>
                     </main>
                     <Footer />

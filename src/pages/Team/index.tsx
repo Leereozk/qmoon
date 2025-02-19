@@ -9,8 +9,8 @@ export const TeamPage = () => {
                     </div>
                     <ul role="list" className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2">
                         <li>
-                            <img alt=""
-                                 src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=8&amp;w=1024&amp;h=1024&amp;q=80"
+                            <img alt="QMoon - Anna"
+                                 src="/team/anna_12_2024.jpeg"
                                  className="aspect-3/2 w-full rounded-2xl object-cover" />
                             <h3 className="mt-6 text-lg/8 font-semibold text-gray-900">Anna</h3>
                             <p className="text-base/7 text-gray-600">CEO</p>
@@ -22,8 +22,8 @@ export const TeamPage = () => {
                             </p>
                         </li>
                         <li>
-                            <img alt=""
-                                 src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=8&amp;w=1024&amp;h=1024&amp;q=80"
+                            <img alt="QMoon - Mike"
+                                 src="/team/mike_04_2023.jpg"
                                  className="aspect-3/2 w-full rounded-2xl object-cover" />
                             <h3 className="mt-6 text-lg/8 font-semibold text-gray-900">Mike</h3>
                             <p className="text-base/7 text-gray-600">CBDO</p>

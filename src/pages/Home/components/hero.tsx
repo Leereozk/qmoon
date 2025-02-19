@@ -19,7 +19,7 @@ export const Hero = () => {
                 </div>
                 <div className="mx-auto max-w-2xl">
                     <div className="text-center">
-                        <img src="/logo.svg" className="mx-auto" />
+                        <img src="/logo.svg" width={500} height={500} className="mx-auto" />
                         <p className="text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
                             Our mission is to make Web3 education simple, fun, and rewarding, empowering everyone to learn, earn, and unlock new opportunities.
                         </p>

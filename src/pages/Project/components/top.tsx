@@ -1,4 +1,5 @@
 import { BrandedBg } from '@/components'
+import { NavLink } from 'react-router-dom'
 
 export const Top = () => {
     return (
@@ -17,7 +18,7 @@ export const Top = () => {
                         totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem
                         placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.</p>
                 </div>
-                <p className="mt-6 italic text-sm text-gray-600">Please read our <a href={"#"} className="text-yellow-300 underline hover:no-underline">Terms of Service</a> before starting. By participating in this activity, you acknowledge that you have read and agree to be bound by these terms of service.</p>
+                <p className="mt-6 italic text-sm text-gray-600">Please read our <NavLink className="text-yellow-300 underline hover:no-underline" to="/terms-of-service">Terms of Service</NavLink> before starting. By participating in this activity, you acknowledge that you have read and agree to be bound by these terms of service.</p>
             </div>
         </article>
     )

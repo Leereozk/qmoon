@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom'
+
 export const HowItWorks = () => {
     return (
         <section className="bg-neutral-950 py-24">
@@ -11,7 +13,7 @@ export const HowItWorks = () => {
                             <p className="mt-6 text-lg/8 text-pretty text-gray-300">
                                 Get reward by taking lessons and testing your knowledge
                             </p>
-                            <p className="mt-6 italic text-sm text-gray-500">Please read our <a href={"#"} className="text-yellow-300 underline hover:no-underline">Terms of Service</a> before starting. By participating in this activity, you acknowledge that you have read and agree to be bound by these terms of service.</p>
+                            <p className="mt-6 italic text-sm text-gray-500">Please read our <NavLink className="text-yellow-300 underline hover:no-underline" to="/terms-of-service">Terms of Service</NavLink> before starting. By participating in this activity, you acknowledge that you have read and agree to be bound by these terms of service.</p>
                             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                                 <a
                                     href={"#list"}

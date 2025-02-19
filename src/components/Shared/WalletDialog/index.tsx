@@ -1,6 +1,7 @@
 import { Dialog, DialogTitle, DialogBackdrop, DialogPanel, CloseButton } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { useContext } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import Freighter from '@/assets/wallets/freighter.svg?react'
 import Metamask from '@/assets/wallets/metamask.svg?react'
@@ -49,7 +50,7 @@ export const WalletDialog = () => {
                             </div>
                             <div className="mt-6 text-center">
                                 <p className="text-sm text-gray-500">
-                                    By connecting your wallet, you agree to <br />our <a className={"underline"} href={"#"}>Terms of Use</a> and <a className={"underline"} href={"#"}>Privacy Policy</a>.
+                                    By connecting your wallet, you agree to <br />our  <NavLink className="underline" to="/terms-of-service">Terms of Use</NavLink> and <NavLink className="underline" to="/privacy-policy">Privacy Policy</NavLink>
                                 </p>
                             </div>
                         </div>

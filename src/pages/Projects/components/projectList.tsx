@@ -10,7 +10,7 @@ export const ProjectList = () => {
                         <article className="relative isolate flex flex-col gap-8 lg:flex-row">
                             <div className="relative aspect-16/9 sm:aspect-2/1 md:aspect-1/1 lg:w-64 lg:shrink-0">
                                 <img alt=""
-                                     src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3603&amp;q=80"
+                                     src="/courses/demo-cource-1.png"
                                      className="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"/>
                                 <div className="absolute inset-0 rounded-2xl inset-shadow-current bga bjg"></div>
                             </div>
@@ -36,7 +36,7 @@ export const ProjectList = () => {
                         <article className="relative isolate flex flex-col gap-8 lg:flex-row w-full">
                             <div className="relative aspect-16/9 sm:aspect-2/1 md:aspect-1/1 lg:w-64 lg:shrink-0">
                                 <img alt=""
-                                     src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3603&amp;q=80"
+                                     src="/courses/demo-cource-2.png"
                                      className="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"/>
                                 <div className="absolute inset-0 rounded-2xl inset-shadow-current bga bjg"></div>
                             </div>
@@ -62,7 +62,7 @@ export const ProjectList = () => {
                         <article className="relative isolate flex flex-col gap-8 lg:flex-row w-full">
                             <div className="relative aspect-16/9 sm:aspect-2/1 md:aspect-1/1 lg:w-64 lg:shrink-0">
                                 <img alt=""
-                                     src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3603&amp;q=80"
+                                     src="/courses/demo-cource-3.png"
                                      className="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"/>
                                 <div className="absolute inset-0 rounded-2xl inset-shadow-current bga bjg"></div>
                             </div>
@@ -88,7 +88,7 @@ export const ProjectList = () => {
                         <article className="relative isolate flex flex-col gap-8 lg:flex-row w-full">
                             <div className="relative aspect-16/9 sm:aspect-2/1 md:aspect-1/1 lg:w-64 lg:shrink-0">
                                 <img alt=""
-                                     src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3603&amp;q=80"
+                                     src="/courses/demo-cource-4.png"
                                      className="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"/>
                                 <div className="absolute inset-0 rounded-2xl inset-shadow-current bga bjg"></div>
                             </div>
